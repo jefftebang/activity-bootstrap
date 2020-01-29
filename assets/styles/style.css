@@ -1,0 +1,16 @@
+* {
+	scroll-behavior: smooth;
+}
+
+.container {
+	padding-top: 110px;
+}
+
+.fa-ul {
+	font-size: .9rem;
+}
+
+.btn > a {
+	text-decoration: none;
+	color: white
+}

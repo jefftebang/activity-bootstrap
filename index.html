@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Activity in Bootstrap</title>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+
+</head>
+<body>
+	<nav class="navbar bg-info navbar-expand-lg navbar-dark" id="myNavbar">
+		<a href="#" class="navbar-brand">Chik n' Wings</a>
+		<!-- Hamburger -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Actual Nav Menu -->
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#aboutUs" class="nav-link">About Us</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" role=button id="navbarDropdown" data-toggle="dropdown">Products</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item">Chicken Wings</a>
+						<a href="#" class="dropdown-item">Chicken Legs</a>
+						<a href="#" class="dropdown-item">Chicken Feet</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="vh-100 bg-warning d-flex justify-content-center align-items-center">
+		<div class="text-center">
+			<h1>Welcome to the land of Flying Chickens.</h1>
+			<button class="btn btn-primary"><a href="#aboutUs">about us</a></button>
+			</div>
+	</section>
+	<section class="vh-100 bg-primary" id="aboutUs">
+		<div class="container">
+			<div class="row">
+				<div class="col lg-3">
+					<div class="card">
+						<div class="card-img">
+							<img src="assets/images/jason.jpg" alt="" class="card-img-top">
+						</div>
+						<div class="card-body">
+							<h5 class="card-tittle text-center">Jason David</h5>
+							<ul class="fa-ul">
+								<li><span class="fas -fa-bullet">Age: 28</span></li>
+								<li><span class="fas -fa-bullet">Address: Makati City</span></li>
+								<li><span class="fas -fa-bullet">Mobile #: 09123456789</span></li>
+								<li><span class="fas -fa-bullet">Email: jason@zuitt.co</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col lg-3">
+					<div class="card">
+						<div class="card-img">
+							<img src="assets/images/albert.jpg" alt="" class="card-img-top">
+						</div>
+						<div class="card-body">
+							<h5 class="card-tittle text-center">Albert Sanchez</h5>
+							<ul class="fa-ul">
+								<li><span class="fas -fa-bullet">Age: 26</span></li>
+								<li><span class="fas -fa-bullet">Address: Quezon City</span></li>
+								<li><span class="fas -fa-bullet">Mobile #: 09323456789</span></li>
+								<li><span class="fas -fa-bullet">Email: albert@zuitt.co</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col lg-3">
+					<div class="card">
+						<div class="card-img">
+							<img src="assets/images/ellaine.jpg" alt="" class="card-img-top">
+						</div>
+						<div class="card-body">
+							<h5 class="card-tittle text-center">Ellaine Robinson</h5>
+							<ul class="fa-ul">
+								<li><span class="fas -fa-bullet">Age: 24</span></li>
+								<li><span class="fas -fa-bullet">Address: Batangas City</span></li>
+								<li><span class="fas -fa-bullet">Mobile #: 09523456789</span></li>
+								<li><span class="fas -fa-bullet">Email: ellaine@zuitt.co</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col lg-3">
+					<div class="card">
+						<div class="card-img">
+							<img src="assets/images/celin.jpg" alt="" class="card-img-top">
+						</div>
+						<div class="card-body">
+							<h5 class="card-tittle text-center">Celin Almar</h5>
+							<ul class="fa-ul">
+								<li><span class="fas -fa-bullet">Age: 32</span></li>
+								<li><span class="fas -fa-bullet">Address: Parañaque City</span></li>
+								<li><span class="fas -fa-bullet">Mobile #: 09223456789</span></li>
+								<li><span class="fas -fa-bullet">Email: celin@zuitt.co</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
