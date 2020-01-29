@@ -32,5 +32,9 @@ strong {
 nav {
 	position: sticky !important;
 	top: 0;
-	opacity: 50%;
+	z-index: 1;
+}
+
+.navbar {
+	background-color: rgba(255,167,0,90%) !important;
 }
