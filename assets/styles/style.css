@@ -14,3 +14,23 @@
 	text-decoration: none;
 	color: white
 }
+
+.navbar-nav {
+	margin-right: 70px;
+}
+
+.landing {
+	background: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+strong {
+	color: white;
+}
+
+nav {
+	position: sticky !important;
+	top: 0;
+	opacity: 50%;
+}
