@@ -38,3 +38,24 @@ nav {
 .navbar {
 	background-color: rgba(255,167,0,90%) !important;
 }
+
+.card-img-top {
+	border-radius: 50%;
+	height: 8rem;
+	width: 8rem;
+	margin-top: 2rem;
+	transition: 0.3s;
+}
+
+.card-img-top:hover{
+	box-shadow: 0px 24px 35px -11px rgba(0,0,0,0.75);
+}
+
+.card {
+	transition: 0.3s;
+}
+
+.card:hover, .card-img-top:hover {
+	transform: scale(1.2);
+	box-shadow: 0px 44px 92px -11px rgba(0,0,0,0.75);
+}
